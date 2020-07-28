@@ -1,11 +1,8 @@
-from module import *
-
-from Python1.Module.module import tri, rec
-
+from Module.module import *
 tri(4, 5)
 rec(2,3)
 #another way
-from module import module as x
+from Module import module, module as x
 
 module.tri(4, 5)
 #renaming the module
